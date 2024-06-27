@@ -20,7 +20,7 @@ public class LoginPage extends TestSelenium{
     @FindBy(xpath = "//input[@type='submit']")
     WebElement loginbutton;
 
-    @FindBy(xpath = "//div[contains(text(),'Warning: No match for E-Mail Address and/or Password')]")
+    @FindBy(xpath = "//div[contains(text(),'Warning: No match for E-Mail Address')]")
     WebElement errorMsg;
 
     WebDriver driver = initializeDriver();
